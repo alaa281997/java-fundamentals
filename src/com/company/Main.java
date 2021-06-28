@@ -1,4 +1,5 @@
 package com.company;
+import java.util.ArrayList;
 import java.util.Random;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -15,8 +16,7 @@ public class Main {
 
         int turtleCount = 0;
         System.out.println("I own " + turtleCount + " " + pluralize("turtle", turtleCount) + ".");
-        flipNHeads(3);
-         clock();
+
     }
     public static String pluralize(String name,int num){
         if(num > 1 || num == 0){
@@ -58,5 +58,6 @@ public class Main {
             }
         }
      }
+
 
 }
