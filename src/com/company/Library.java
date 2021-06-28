@@ -13,7 +13,7 @@ public class Library {
                 {55, 54, 60, 53, 59, 57, 61},
                 {65, 56, 55, 52, 55, 62, 57}
         };
-        int x[] = {1,2,3,4};
+        int x[] = {1,2,3,4,5,6};
        System.out.println("Result = "+ containsDuplicates(x));
         System.out.println("Avg = "+ average(x));
         System.out.println("The Avg = " + arrOfArr(arrr));
@@ -30,6 +30,7 @@ public class Library {
 
 
     }
+
     static boolean containsDuplicates(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             for (int j = i+1; j < arr.length; j++) {
@@ -69,24 +70,6 @@ public class Library {
    return  min;
 }
 
-/*
-public static void printtda() {
 
-        for (int i=0; i<weeklyMonthTemperatures.length; i++) {
-            int sum = 0;
-            for (int j=0; j< weeklyMonthTemperatures[i].length; j++) {
-                sum+=weeklyMonthTemperatures[i][j];
-//                System.out.print(weeklyMonthTemperatures[i][g] +"  ");
-            }
-            int avgEveryRow =  sum/weeklyMonthTemperatures[i].length;
-            min = sum/weeklyMonthTemperatures[0].length;
-            if (min > avgEveryRow){
-                min = avgEveryRow;
-            }
-            System.out.println("avg every row "+avgEveryRow);
-        }
-        System.out.println(min);
-    }
- */
 
 }
