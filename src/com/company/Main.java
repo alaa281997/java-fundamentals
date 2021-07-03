@@ -18,6 +18,7 @@ public class Main {
         System.out.println("I own " + turtleCount + " " + pluralize("turtle", turtleCount) + ".");
 
     }
+
     public static String pluralize(String name,int num){
         if(num > 1 || num == 0){
             return name + "s";
