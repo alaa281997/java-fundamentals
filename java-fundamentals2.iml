@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/basiclibrary/lib/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/linter/app/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inheritance/lib/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
